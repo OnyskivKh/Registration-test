@@ -1,6 +1,6 @@
 describe('Registration page', () => {
     it('Fill in form', () => {
-        cy.visit('https://automationteststore.com/');
+        cy.visit('/');
 
         cy.get('#customer_menu_top').click();
         cy.get('.btn-orange').first().click();
@@ -26,8 +26,7 @@ describe('Registration page', () => {
             cy.location().should(location => {
                 expect(location.href).to.eq('https://automationteststore.com/index.php?rt=account/success');
             });
-            cy.get('.maintext').contains(' Your Account Has Been Created!')
-
+            cy.get('.maintext').should('have.prop', 'textContent', ' Your Account Has Been Created!');
         });
     });
 });
