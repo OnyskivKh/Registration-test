@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (username, password) => {
+    cy.log('Open authorization form');
+    cy.visit('/index.php?rt=account/login');
+
+    cy.log('Fill in authorization fields');
+    username ? cy.get('#loginFrm_loginname').type(username) : cy.log('username fields not filled');
+    password ? cy.get('#loginFrm_password').type(password) : cy.log('password fields not filled');
+    cy.get('[title="Login"]').click();
+})

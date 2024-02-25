@@ -1,13 +1,17 @@
 import user from '../fixtures/User.json'
 import {faker} from '@faker-js/faker'
 
+
+//let test =faker.word.verb();
 user.firstname = faker.person.firstName();
 user.lastname = faker.person.lastName();
-user.email = faker.internet.email({ firstName: 'Khrystyna', lastName: 'Onyskiv', provider: 'some.fakeMail.qa', allowSpecialCharacters: false});
+user.email = faker.internet.email({ firstName: 'Khrystyna', lastName: 'Onyskiv', provider: 'some.fakeMail.qa', allowSpecialCharacters: false});// use always this 'some.fakeMail.qa'
 user.loginname = faker.internet.userName();
+
 
 describe('register with valid data', () => {
     it('Registration', () => {
+       // cy.log(test);
         cy.log('Open registration form');
         cy.visit('/');
         cy.get('#customer_menu_top').click();
@@ -60,4 +64,18 @@ describe('register with valid data', () => {
         cy.get('span.maintext').should('have.prop', 'textContent', ' Your Account Has Been Created!');
     })
 
+    it('Authorization ', () => {
+        cy.log('Open authorization form');
+        cy.visit('/index.php?rt=account/login'); // тільки закінчення потрібно
+
+        cy.log('Fill in authorization fields');
+        cy.get('#loginFrm_loginname').type(user.loginname);
+        cy.get('#loginFrm_password').type(user.password);
+        cy.get('[title="Login"]').click();
+
+        cy.log('User first name should displayed on the page');
+        cy.get('.heading1 .subtext').should('contain', user.firstname);
+    });
+
 })
+
