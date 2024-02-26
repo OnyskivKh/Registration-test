@@ -8,7 +8,7 @@ describe('Authorization positive scenarios', () => {
     it('Authorization ', () => {
         cy.log('Open authorization form');
         LoginPage.visit();
-        LoginPage.fillAuthorizationField(user.loginname, user.password)
+        LoginPage. fillLoginFields(user.loginname, user.password)
 
         cy.log('User first name should displayed on the page');
         accountPage.getFirstNameText('contain', user.firstname);
@@ -22,28 +22,28 @@ describe('Authorization negative scenarios', () => {
     it('Authorization without entering username', () => {
         cy.log('Open authorization form');
         LoginPage.visit();
-        LoginPage.fillAuthorizationField(user.loginname, user.password)
+        LoginPage. fillLoginFields(user.loginname, user.password)
 
         cy.log('Error have appear ');
-       loginPage.getErrorMessageText().should('contain', 'Error: Incorrect login or password provided.');
+       loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
     });
 
     it('Authorization without entering password', () => {
 
         LoginPage.visit();
-        LoginPage.fillAuthorizationField(user.loginname)
+        LoginPage. fillLoginFields(user.loginname)
 
         cy.log('Error have appear');
-        loginPage.getErrorMessageText().should('contain', 'Error: Incorrect login or password provided.');
+        loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
 
     });
     it('Authorization with empty values ', () => {
 
         LoginPage.visit();
-        LoginPage.fillAuthorizationField()
+        LoginPage. fillLoginFields()
 
         cy.log('Error have appear');
-        loginPage.getErrorMessageText().should('contain', 'Error: Incorrect login or password provided.');
+        loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
     });
 
 })
