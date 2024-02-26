@@ -3,7 +3,7 @@ import {fillAuthorizationField} from "../support/helper";
 import LoginPage from "../support/Pages/LoginPage";
 import accountPage from "../support/Pages/AccountPage";
 import loginPage from "../support/Pages/LoginPage";
-describe.skip('Authorization positive scenarios', () => {
+describe('Authorization positive scenarios', () => {
 
     it('Authorization ', () => {
         cy.log('Open authorization form');

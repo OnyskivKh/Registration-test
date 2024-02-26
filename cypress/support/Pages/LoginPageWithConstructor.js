@@ -37,7 +37,7 @@ class LoginPageWithConstructor extends BasePage{ // example class with login pag
         cy.log('Fill in authorization fields');
         username ? this.getLoginNameField.type(username) : cy.log('Skip username field');
         password ? this.getPasswordField.type(password) : cy.log('Skip password field');
-        this.getSubmitButton.click();
+        this.getSubmitButton.submit();
     }
 }
 export default new LoginPageWithConstructor()
