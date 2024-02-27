@@ -1,14 +1,12 @@
 import user from '../fixtures/User.json'
-import {fillAuthorizationField} from "../support/helper";
-import LoginPage from "../support/Pages/LoginPage";
 import accountPage from "../support/Pages/AccountPage";
 import loginPage from "../support/Pages/LoginPage";
 describe('Authorization positive scenarios', () => {
 
     it('Authorization ', () => {
         cy.log('Open authorization form');
-        LoginPage.visit();
-        LoginPage. fillLoginFields(user.loginname, user.password)
+        loginPage.visit();
+        loginPage. fillLoginFields(user.loginname, user.password)
 
         cy.log('User first name should displayed on the page');
         accountPage.getFirstNameText('contain', user.firstname);
@@ -21,8 +19,8 @@ describe('Authorization negative scenarios', () => {
 
     it('Authorization without entering username', () => {
         cy.log('Open authorization form');
-        LoginPage.visit();
-        LoginPage. fillLoginFields(user.loginname, user.password)
+        loginPage.visit();
+        loginPage. fillLoginFields(user.loginname, user.password)
 
         cy.log('Error have appear ');
        loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
@@ -30,8 +28,8 @@ describe('Authorization negative scenarios', () => {
 
     it('Authorization without entering password', () => {
 
-        LoginPage.visit();
-        LoginPage. fillLoginFields(user.loginname)
+        loginPage.visit();
+        loginPage. fillLoginFields(user.loginname)
 
         cy.log('Error have appear');
         loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
@@ -39,8 +37,8 @@ describe('Authorization negative scenarios', () => {
     });
     it('Authorization with empty values ', () => {
 
-        LoginPage.visit();
-        LoginPage. fillLoginFields()
+        loginPage.visit();
+        loginPage. fillLoginFields()
 
         cy.log('Error have appear');
         loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');

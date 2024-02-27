@@ -16,8 +16,20 @@ class RegistrationPage {
     getEmailField() {
         return cy.get('#AccountFrm_email');
     }
+    getTelephoneField() {
+        return cy.get('#AccountFrm_telephone');
+    }
+    getFaxField() {
+        return cy.get('#AccountFrm_fax');
+    }
+    getCompanyield() {
+        return cy.get('#AccountFrm_company');
+    }
     getAddress1Field() {
         return cy.get('#AccountFrm_address_1');
+    }
+    getAddress2Field() {
+        return cy.get('#AccountFrm_address_2');
     }
     getCityField() {
         return cy.get('#AccountFrm_city');
@@ -38,7 +50,7 @@ class RegistrationPage {
         return cy.get('[type="checkbox"]');
     }
     getContinueButton() {
-        return cy.get('button.btn');
+        return cy.get('[title="Continue"]');
     }
     getLoginName() {
         return cy.get('#AccountFrm_loginname');
@@ -48,6 +60,9 @@ class RegistrationPage {
     }
     getConfirmField() {
         return cy.get('#AccountFrm_confirm');
+    }
+    getConfirmText() {
+        return cy.get('span.maintext');
     }
 }
 export default new RegistrationPage()
