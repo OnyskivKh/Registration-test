@@ -1,6 +1,8 @@
 import user from '../fixtures/User.json'
 import accountPage from "../support/Pages/AccountPage";
 import loginPage from "../support/Pages/LoginPage";
+import {login} from "../support/helperLogin";
+
 describe('Authorization positive scenarios', () => {
 
     it('Authorization ', () => {
@@ -42,6 +44,13 @@ describe('Authorization negative scenarios', () => {
 
         cy.log('Error have appear');
         loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
+    });
+    it('Authorization via API ', () => {
+        loginPage.visit();
+        login(user.loginname, user.password)
+
+        cy.log('User first name should displayed on the page');
+        accountPage.getFirstNameText('contain', user.firstname);
     });
 
 })

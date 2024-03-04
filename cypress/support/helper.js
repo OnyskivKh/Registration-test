@@ -11,3 +11,4 @@ export function fillAuthorizationField(username = '', password = '') {
 // }else{
 //     cy.log('username fields not filled')
 // }
+
