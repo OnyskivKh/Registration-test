@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "Hw_Onyskiv_RegistrationPage.cy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "sudo npx cypress run"
   },
   "author": "",
   "license": "ISC",
@@ -11,7 +12,10 @@
     "cypress": "^13.6.6"
   },
   "devDependencies": {
-    "@faker-js/faker": "^8.4.1"
+    "@faker-js/faker": "^8.4.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "description": ""
 }

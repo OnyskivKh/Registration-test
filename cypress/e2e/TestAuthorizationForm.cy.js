@@ -1,7 +1,7 @@
 import user from '../fixtures/User.json'
 import accountPage from "../support/Pages/AccountPage";
 import loginPage from "../support/Pages/LoginPage";
-import {login} from "../support/helperLogin";
+import {headlessLogin} from "../support/helper";
 
 describe('Authorization positive scenarios', () => {
 
@@ -45,14 +45,16 @@ describe('Authorization negative scenarios', () => {
         cy.log('Error have appear');
         loginPage.getErrorMessageText('contain', 'Error: Incorrect login or password provided.');
     });
-    it('Authorization via API ', () => {
-        loginPage.visit();
-        login(user.loginname, user.password)
 
-        cy.log('User first name should displayed on the page');
-        accountPage.getFirstNameText('contain', user.firstname);
-    });
+    describe('Authorization via API', () => {
+        it('Test auth helper', {retries: 2}, () => {
+            headlessLogin(user.loginname, user.password);
 
+            cy.visit('/index.php?rt=account/account');
+            cy.log('User first name should display on page');
+            accountPage.getFirstNameText().should('contain', user.firstname);
+        })
+})
 })
 
 // let userCred = [

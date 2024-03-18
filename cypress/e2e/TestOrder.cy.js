@@ -1,20 +1,14 @@
-import user from '../fixtures/User.json'
-import {fillAuthorizationField} from '../support/helper.js'
-import accountPage from "../support/Pages/AccountPage";
-import loginPage from "../support/Pages/LoginPage";
+import {findItem} from "../support/helper.js"
 
-describe('Order suit', () => {
-    it('Order from page  ', () => {
-        cy.log('Open authorization form');
-        loginPage.visit();
+describe('Search for item', () => {
+    it('search for "E" value in search bar ', () => {
+        cy.visit('/')
+        cy.get('#filter_keyword').type('e');
+        cy.get('.button-in-search').parents('form').submit();
+        findItem('Benefit Bella Bamba');
 
-        fillAuthorizationField(user.loginname, user.password)
-
-        cy.log('User first name should displayed on the page');
-        accountPage.getFirstNameText().should('contain', user.firstname);
-    });
+    })
 })
-
 
 
 

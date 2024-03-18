@@ -7,7 +7,7 @@ import accountPage from "../support/Pages/AccountPage";
 
 user.firstname = faker.person.firstName();
 user.lastname = faker.person.lastName();
-user.email = faker.internet.email({ firstName: 'Khrystyna', lastName: 'Onyskiv', provider: 'some.fakeMail.qa', allowSpecialCharacters: false }); // use always this 'some.fakeMail.qa'
+user.email = faker.internet.email(); // use always this 'some.fakeMail.qa'
 user.loginname = faker.internet.userName();
 
 describe('Registration page', () => {
