@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e94d19b-7610-4b72-94d8-1c44eedd787c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cypress/results/mochawesome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/results/mochawesome_001.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/screenshots/TestRegistrationForm.cy.js/register with valid data -- Registration (failed).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/app.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-light-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-light-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-medium-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-medium-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/assets/roboto-regular-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome-report/mochawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mochawesome.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/Hw_Onyskiv_RegistrationPage.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Hw_Onyskiv_RegistrationPage.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/TestAuthorizationForm.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/TestAuthorizationForm.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/TestOrder.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/TestOrder.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/TestRegistrationForm.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/TestRegistrationForm.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/helperLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cypress/e2e/Hw_Onyskiv_RegistrationPage.cy.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2cJvL4MGoUAs34cpuuSLtWa0hRP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/page__object&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/khrystyna/Desktop/Learning Cypress/Registration tests/cypress/support&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.run.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/Aqua.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cypress/support" />
+      <recent name="$PROJECT_DIR$/cypress/support/Pages" />
+      <recent name="$PROJECT_DIR$/cypress/e2e" />
+      <recent name="$PROJECT_DIR$/cypress/fixtures" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cypress/e2e" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e94d19b-7610-4b72-94d8-1c44eedd787c" name="Changes" comment="" />
+      <created>1707842436856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707842436856</updated>
+      <workItem from="1707842438007" duration="508000" />
+      <workItem from="1707843062992" duration="4781000" />
+      <workItem from="1707918718674" duration="9133000" />
+      <workItem from="1707989516302" duration="1145000" />
+      <workItem from="1708011881671" duration="1866000" />
+      <workItem from="1708327759569" duration="6000" />
+      <workItem from="1708327810534" duration="142000" />
+      <workItem from="1708328128418" duration="12432000" />
+      <workItem from="1708515680936" duration="4104000" />
+      <workItem from="1708601611779" duration="17000" />
+      <workItem from="1708621106047" duration="459000" />
+      <workItem from="1708699288570" duration="24493000" />
+      <workItem from="1708949176715" duration="1899000" />
+      <workItem from="1708951397799" duration="18000" />
+      <workItem from="1708951423023" duration="5000" />
+      <workItem from="1708969564362" duration="710000" />
+      <workItem from="1709024650703" duration="5135000" />
+      <workItem from="1709541884837" duration="7158000" />
+      <workItem from="1709660135020" duration="43846000" />
+      <workItem from="1709921136777" duration="2688000" />
+      <workItem from="1710072324699" duration="51000" />
+      <workItem from="1710101120992" duration="1213000" />
+      <workItem from="1710351938320" duration="2878000" />
+      <workItem from="1710759405253" duration="1900000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/cypress/support/Registration/RegistrationPage.js</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
